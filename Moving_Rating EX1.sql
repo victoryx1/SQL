@@ -14,7 +14,7 @@ Select title
 from Movie
 where director = 'Steven Spielberg'
 
--- 2.Find all years that have a movie that received a rating of 4 or 5, and sort them in increasing order. 
+-- 2.Find all years that have a movie that received a rating of 4 or 5, and sort them in the increasing order. 
 
  select distinct year
  from Movie natural join Rating
